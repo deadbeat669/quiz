@@ -13,3 +13,18 @@
   font-size: .77rem;
   font-weight: bold;
 }
+
+.header .logo {
+  flex-grow: 1;
+  color: #ffb78c;
+}
+
+.header li {
+  display: inline;
+  padding-right: 2.22rem;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
