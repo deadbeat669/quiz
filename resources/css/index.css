@@ -1,21 +1,18 @@
 /* Header */
 
 .header {
-  color: green;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 4.44rem;
-  padding: 0 12%;
+  height: 4rem;
   background-color: white;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
   font-family: Verdana, sans-serif;
   font-size: .77rem;
   font-weight: bold;
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .header .logo {
-  flex-grow: 1;
   color: #ffb78c;
 }
 
@@ -27,4 +24,9 @@
 .header li a {
   text-decoration: none;
   color: #4a4a4a;
+}
+
+.topnav-right {
+  float: right;
+  padding-top: 1.2rem;
 }
