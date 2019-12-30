@@ -21,6 +21,11 @@ nav {
 
 .logo {
   display: inline-block;
+  font-family: 'Cabin Sketch', cursive;
+  text-decoration: none;
+  color: #05386B;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .navbar {
